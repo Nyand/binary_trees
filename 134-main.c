@@ -47,6 +47,6 @@ int main(void)
     sorted = heap_to_sorted_array(tree, &sorted_size);
     print_array(sorted, sorted_size);
     free(sorted);
-    return (0);
+    return (0);;
 }
 
